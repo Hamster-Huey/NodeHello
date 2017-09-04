@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Linux is awesome! Made a change');
+  res.send('Linux is awesome!');
 });
 
 app.listen(process.env.PORT, function () {
